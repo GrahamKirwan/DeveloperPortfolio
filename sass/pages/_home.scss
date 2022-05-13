@@ -16,6 +16,13 @@
 
 .section-projects {
     padding-bottom: 20rem;
+
+    &__buttons {
+        background-color: red;
+        span {
+            padding: 10px;
+        }
+    }
 }
 
 .section-footer {
