@@ -197,6 +197,12 @@ body {
   background-color: #fff;
   color: #c6c6c6; }
 
+.projects__container {
+  display: none; }
+
+.projects__container--active {
+  display: inherit; }
+
 .projects__card {
   border-radius: .5rem;
   height: 40rem;
@@ -457,6 +463,21 @@ body {
 
 .section-projects {
   padding-bottom: 20rem; }
+  .section-projects__buttons {
+    margin-top: 2rem;
+    margin-bottom: 6rem; }
+    .section-projects__buttons--active {
+      background-color: #8b43ff !important; }
+    .section-projects__buttons span {
+      padding: 1.4rem 2.5rem;
+      margin: 1rem;
+      font-size: 1.2rem;
+      background-color: grey;
+      color: white;
+      border-radius: 10rem;
+      cursor: pointer; }
+      .section-projects__buttons span:hover {
+        background-color: #293347; }
 
 .section-footer {
   background-color: #293347;

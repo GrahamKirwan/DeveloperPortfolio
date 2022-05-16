@@ -1,5 +1,11 @@
 .projects__container {
 
+    display: none;
+
+}
+
+.projects__container--active {
+    display: inherit;
 }
 
 .projects__card {

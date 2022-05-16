@@ -132,41 +132,43 @@
                             <div class="heading-secondary--underline-heading"></div>
                             <p class="projects__card--text u-margin-top-small">Here are a few recent design projects. Want to know more? <span class="projects__card--text--mail"><a href="mailto:graham.kirwan4@gmail.com" class="projects__card--text--link">Email me.</a></span></p>
 
-                            <p class="section-projects__buttons"><span>Web Applications</span><span>Websites</span><span>Design</span></p>
+                            <p class="section-projects__buttons"><span class="section-projects__buttons--active" id="projects-btn-1">Web Applications</span><span id="projects-btn-2">Websites</span><span id="projects-btn-3">Design</span></p>
                     </div>
 
-                    <div class="projects__container">
+                    <div class="projects__container projects__container--active" id="projects__container_webApps">
                         <div class="row">
                             <div class="col-1-of-3">
                                 <div class="projects__card u-center-text">
                                         <div class="projects__card--thumbnail">
-                                                <a href="http://www.sdgchallenge.net" target="_blank"><img src="img/sdg.png" alt="" class="projects__card--image"></a>
+                                                <a href="https://entertainment-web-app-one.vercel.app/movies" target="_blank"><img src="https://raw.githubusercontent.com/GrahamKirwan/Entertainment-web-app/main/preview.png" alt="Entertainment web app" style="margin-left: 0; width: 100%; height: 100%;" class="projects__card--image"></a>
                                             </div>
-                                    <h3 class="heading-tertiary u-margin-top-small">SDG Challenge</h3>
+                                    <h3 class="heading-tertiary u-margin-top-small">Entertainment Web App</h3>
                                     <p class="projects__card--text">Website built for a client who run a development education project focussed on achieving a more sustainable way of living.</p>
-                                    <a href="http://www.sdgchallenge.net" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
-                                    <a href="https://github.com/G1K3/SDGChallenge" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
+                                    <a href="https://entertainment-web-app-one.vercel.app/movies" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                    <a href="https://github.com/GrahamKirwan/Entertainment-web-app" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
                                 </div>
                             </div>
                             <div class="col-1-of-3">
                                     <div class="projects__card u-center-text">
                                             <div class="projects__card--thumbnail">
-                                                    <a href="https://glomaigheo.ie" target="_blank"><img src="img/glo.png" alt="" class="projects__card--image"></a>
+                                                    <a href="https://audiophile-psi.vercel.app/" target="_blank"><img src="https://github.com/GrahamKirwan/audiophile/raw/main/preview.png" alt="" class="projects__card--image"></a>
                                                 </div>
-                                        <h3 class="heading-tertiary u-margin-top-small">GLO Maigh Eo</h3>
+                                        <h3 class="heading-tertiary u-margin-top-small">Audiophile</h3>
                                         <p class="projects__card--text">Wordpress website for a client who financially supports community groups, organisations and charities in county Mayo, Ireland.</p>
-                                        <a href="https://glomaigheo.ie" target="_blank" class="projects__card--links--nopad">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                        <a href="https://audiophile-psi.vercel.app/" target="_blank" class="projects__card--links--nopad">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                        <a href="https://github.com/GrahamKirwan/audiophile" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
                                     </div>
                                 </div>
                                 <div class="col-1-of-3">
                                         <div class="projects__card u-center-text">
                                             <div class="projects__card--thumbnail">
-                                                <a href="https://www.developmentperspectives.ie/ResourcesPDFS/Understanding-the-SDGs.pdf" target="_blank"><img src="img/workbook-cover.jpg" alt="sdg workbook" class="projects__card--image"></a>
+                                                <a href="https://react-product-feedback.vercel.app/" target="_blank"><img src="https://github.com/GrahamKirwan/react-product-feedback/raw/main/preview.jpg" alt="sdg workbook" class="projects__card--image"></a>
                                             </div>
                                             
-                                            <h3 class="heading-tertiary u-margin-top-small">Education Workbook</h3>
+                                            <h3 class="heading-tertiary u-margin-top-small">Product Feedback App</h3>
                                             <p class="projects__card--text">I designed and created a workbook as part of a development education programme launched in 2017. </p>
-                                            <a href="https://www.developmentperspectives.ie/ResourcesPDFS/Understanding-the-SDGs.pdf" target="_blank" class="projects__card--links">View workbook<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://react-product-feedback.vercel.app/" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://github.com/GrahamKirwan/react-product-feedback" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
                                         </div>
                                     </div>
 
@@ -225,6 +227,85 @@
 
                             </div>
                     </div>
+
+                    <div class="projects__container" id="projects__container_websites">
+
+                        <div class="row">
+                                <div class="col-1-of-3">
+                                        <div class="projects__card u-center-text">
+                                                <div class="projects__card--thumbnail">
+                                                        <a href="https://grahamkirwan.github.io/Outline/" target="_blank"><img src="img/outline.png" alt="" class="projects__card--image"></a>
+                                                    </div>
+                                            <h3 class="heading-tertiary u-margin-top-small">Outline Barbers</h3>
+                                            <p class="projects__card--text">Barbershop website focused on CSS animations, with SaSS integrated, using the 7-1 architecture and BEM methodology.</p>
+                                            <a href="https://grahamkirwan.github.io/Outline/" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://github.com/GrahamKirwan/Outline" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
+                                        </div>
+                                    </div>
+                                <div class="col-1-of-3">
+                                        <div class="projects__card u-center-text">
+                                                <div class="projects__card--thumbnail">
+                                                        <a href="https://grahamkirwan.github.io/BoyneHills/" target="_blank"><img src="img/boyne.png" alt="" class="projects__card--image"></a>
+                                                    </div>
+                                            <h3 class="heading-tertiary u-margin-top-small">Boyne Hills</h3>
+                                            <p class="projects__card--text">Built this website thinking about easy to use, intuitive UX/UI and close attention to design details making it very visually appealing.</p>
+                                            <a href="https://grahamkirwan.github.io/BoyneHills/" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://github.com/GrahamKirwan/BoyneHills" target="_blank" class="projects__card--links--nopad">GitHub<i class="fab fa-github projects__card--icons"></i></a>
+                                        </div>
+                                    </div>
+                                <div class="col-1-of-3">
+                                        <div class="projects__card u-center-text">
+                                                <div class="projects__card--thumbnail">
+                                                        <a href="https://grahamkirwan.github.io/MyProteinEmail/" target="_blank"><img src="img/email.png" alt="" class="projects__card--image"></a>
+                                                    </div>
+                                            <h3 class="heading-tertiary u-margin-top-small">HTML Emails</h3>
+                                            <p class="projects__card--text">Designed and developed many rock solid table based HTML Emails using common design patterns and email friendly CSS.</p>
+                                            <a href="https://grahamkirwan.github.io/MyProteinEmail/" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://github.com/GrahamKirwan/MyProteinEmail" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
+                                        </div>
+                                    </div>
+                                   
+
+                                        
+                            </div>
+                            <div class="row">
+                                    <div class="col-1-of-3">
+                                    <div class="projects__card u-center-text">
+                                            <div class="projects__card--thumbnail">
+                                                <a href="https://grahamkirwan.github.io/FitnessPlans/" target="_blank"><img src="img/alexpfit.png" alt="" class="projects__card--image"></a>
+                                            </div>
+                                            
+                                            <h3 class="heading-tertiary u-margin-top-small">AlexP Fitness</h3>
+                                            <p class="projects__card--text">I built this website for a client in the fitness industry who provides online coaching and nutrition plans.</p>
+                                            <a href="https://grahamkirwan.github.io/FitnessPlans/" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://github.com/GrahamKirwan/FitnessPlans" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
+                                        </div>
+                                    </div>
+
+                            </div>
+                    </div>
+
+                    <div class="projects__container" id="projects__container_design">
+
+
+                            <div class="row">
+                                    <div class="col-1-of-3">
+                                    <div class="projects__card u-center-text">
+                                            <div class="projects__card--thumbnail">
+                                                <a href="https://grahamkirwan.github.io/FitnessPlans/" target="_blank"><img src="img/alexpfit.png" alt="" class="projects__card--image"></a>
+                                            </div>
+                                            
+                                            <h3 class="heading-tertiary u-margin-top-small">AlexP Fitness</h3>
+                                            <p class="projects__card--text">I built this website for a client in the fitness industry who provides online coaching and nutrition plans.</p>
+                                            <a href="https://grahamkirwan.github.io/FitnessPlans/" target="_blank" class="projects__card--links">Visit site<i class="fas fa-external-link-alt projects__card--icons"></i></a>
+                                            <a href="https://github.com/GrahamKirwan/FitnessPlans" target="_blank" class="projects__card--links">GitHub<i class="fab fa-github projects__card--icons"></i></a>
+                                        </div>
+                                    </div>
+
+                            </div>
+                    </div>
+
+
             </div>
         </section>
 
@@ -376,8 +457,44 @@
                     </div>
                 </div>
             </div> -->
-        
 
+            <script>
+                const projBtn1 = document.getElementById('projects-btn-1');
+                const projBtn2 = document.getElementById('projects-btn-2');
+                const projBtn3 = document.getElementById('projects-btn-3');
+                const webApps = document.getElementById('projects__container_webApps');
+                const websites = document.getElementById('projects__container_websites');
+                const design = document.getElementById('projects__container_design');
+        
+                projBtn1.addEventListener('click', function(){
+                    projBtn2.classList.remove('section-projects__buttons--active')
+                    projBtn1.classList.add('section-projects__buttons--active')
+                    projBtn3.classList.remove('section-projects__buttons--active')
+                    webApps.classList.add('projects__container--active')
+                    websites.classList.remove('projects__container--active')
+                    design.classList.remove('projects__container--active')
+                })
+                projBtn2.addEventListener('click', function(){
+                    projBtn2.classList.add('section-projects__buttons--active')
+                    projBtn1.classList.remove('section-projects__buttons--active')
+                    projBtn3.classList.remove('section-projects__buttons--active')
+                    webApps.classList.remove('projects__container--active')
+                    websites.classList.add('projects__container--active')
+                    design.classList.remove('projects__container--active')
+                })
+                projBtn3.addEventListener('click', function(){
+                    projBtn2.classList.remove('section-projects__buttons--active')
+                    projBtn1.classList.remove('section-projects__buttons--active')
+                    projBtn3.classList.add('section-projects__buttons--active')
+                    webApps.classList.remove('projects__container--active')
+                    websites.classList.remove('projects__container--active')
+                    design.classList.add('projects__container--active')
+                })
+
+
+            </script>
 
     </body>
+
+
 </html>

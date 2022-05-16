@@ -8,7 +8,7 @@
   },
   "author": "Graham Kirwan",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.12.0"
+  "dependencies": {
+    "node-sass": "^7.0.1"
   }
 }
