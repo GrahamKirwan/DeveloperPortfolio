@@ -10,22 +10,24 @@
 
 .projects__card {
     border-radius: .5rem;
-    height: 40rem;
+    height: 43rem;
     overflow: hidden;
     box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
     background-color: $color-white;
 
     &--thumbnail {
         width: 100%;
-        height: 50%;
+        height: 43%;
         object-fit: cover;
+        display: flex;
+        justify-content: center;
     }
 
     &--image {
         // width: 100%;
         height: 100%;
         object-fit: inherit;
-        margin-left: -2rem;
+        // margin-left: -2rem;
     }
 
     &--text {
